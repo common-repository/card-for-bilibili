@@ -1,0 +1,63 @@
+div.bilibili-card {
+    color:black;
+    position:relative;
+    width:100%;
+    max-width:600px;
+    height:130px;
+    padding:5px;
+    border-radius:10px;
+    background-color:white;
+    box-shadow:0 0 10px #bfbfbf;
+    overflow:hidden;
+    transition:all .3s linear;
+}
+div.bilibili-card:hover {
+    box-shadow:0 0 10px #8c8c8c;
+}
+div.bilibili-card > img {
+    width:200px;
+    height:120px;
+    border-radius:10px;
+}
+div.bilibili-card > .card-information {
+    position:absolute;
+    top:5px;
+    left:210px;
+    right:5px;
+    bottom:5px;
+    overflow:hidden;
+}
+div.bilibili-card > .card-information > .card-title {
+    white-space:nowrap;
+    overflow:hidden;
+    margin:0;
+}
+div.bilibili-card > .card-information > .card-uploader {
+    color:gray;
+    font-size:10px;
+    position:relative;
+    top:-6px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+div.bilibili-card > .card-information > .card-description {
+    line-height:normal;
+    font-size:12px;
+    overflow:auto;
+    white-space:normal;
+    position:relative;
+    top:-8px;
+    height:72px;
+}
+div.bilibili-card > .card-information > .card-description::-webkit-scrollbar {
+    width:6px;
+}
+div.bilibili-card > .card-information > .card-description::-webkit-scrollbar-thumb {
+    background-color:black;
+}
+div.bilibili-card > .card-information > .card-description::-webkit-scrollbar-thumb:hover {
+    background-color:rgb(48, 48, 48);
+}
+div.bilibili-card > .card-information > .card-description::-webkit-scrollbar-thumb:active {
+    background-color:rgb(143, 143, 143);
+}
